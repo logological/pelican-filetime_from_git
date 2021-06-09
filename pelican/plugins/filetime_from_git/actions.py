@@ -6,7 +6,7 @@ import os
 
 from pelican.utils import strftime
 
-from .registration import content_git_object_init
+from .filetime_from_git import content_git_object_init
 from .utils import datetime_from_timestamp
 from .utils import string_to_bool
 
